@@ -1,0 +1,229 @@
+html {
+	background-color: $gsc-white;
+}
+
+body {
+	font-family: $family-primary;
+	color: $gsc-black;
+}
+
+.container {
+	max-width: 1200px;
+}
+
+h1, h2, h3 {
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+
+h1 {
+	font-size: 2.5em;
+}
+
+h2 {
+	font-size: 1.8em;	
+}
+
+h3 {
+	font-size: 1.25em;
+}
+
+a {
+	color: inherit;
+	&:hover {
+      color: $gsc-pink;  
+    }
+    i:hover {
+    	color: $gsc-pink;
+    }
+}
+
+p {
+	margin: 10px 0;
+}
+
+.title {
+	font-family: $family-script;
+}
+
+.section {
+	background-color: transparent;
+}
+
+.specialties {
+	padding: 20px;
+	.icon {
+		height: 150px;
+		width: auto;
+		polygon {
+			stroke: $gsc-black;
+			fill: none;
+		}
+		path {
+			stroke: $gsc-black;
+			fill: none;
+		}
+	}
+
+}
+
+.nav {
+	background-color: $gsc-white;
+}
+
+
+.home .nav {
+	background-color: transparent;
+	transition: all 0.3s ease;
+
+}
+
+.nav-toggle.is-active span {
+    background-color: $gsc-mint;	
+}
+
+img {
+	border-radius: 5px;
+}
+
+.home .nav-scrolled {
+	background-color: $gsc-white;
+	transition: all 0.3s ease;
+}
+
+.active-tab {
+	background-color: $grey;
+}
+
+@media screen and (max-width: 768px) {
+	.home .nav {
+		background-color: $gsc-white;
+	}
+	.footer {
+		text-align: center;
+	}
+}
+
+.nav.is-fixed-top {
+   position: fixed;
+   left: 0;
+   right: 0;
+   z-index: 1030;
+ }
+ 
+ .nav.is-fixed-top {
+   top: 0;
+ }
+
+.nav-item img {
+    max-height: 30px;
+}
+
+a.nav-item {
+	font-family: $family-script;
+	color: $gsc-mint;
+	font-size: 1.8em;
+}
+
+.landing {
+	background: url("/assets/images/cakehero.jpg") no-repeat center;
+	.hero-logo {
+		margin-top: -50px;
+	}
+	img {
+		max-width: 500px;
+		margin: 0 auto;
+	}
+}
+
+.page-head {
+	padding-top: 80px;
+	background-position: bottom;
+}
+
+.button.is-primary {
+	background-color: $gsc-mint;
+}
+
+.footer {
+	background-image: url("/assets/images/pattern.png");
+	background-size: cover;
+}
+
+.section-title {
+	font-family: $family-script;
+	font-size: 3em;
+}
+
+.logo {
+	max-width: 500px;
+	height: auto;
+}
+
+i {
+	color: $gsc-mint;
+}
+
+.table th, .table td {
+	text-align: center;
+}
+
+// Helpers
+
+.is-white {
+	color: #ffffff;
+}
+
+.is-mint {
+	color: $gsc-mint;
+}
+
+.is-pink {
+	color: $gsc-pink;
+}
+
+.script-text {
+	font-family: $family-script;
+}
+
+.text-large {
+	font-size: 4em;
+}
+
+.overlay-fade {
+	background-size: cover;
+	background-color: $grey;
+	background-blend-mode: soft-light;
+	-webkit-background-blend-mode: soft-light;
+}
+
+.is-text-medium {
+	font-weight: 500;
+}
+
+.is-text-bold {
+	font-weight: 600;
+}
+
+.give-me-space {
+	margin-top: 40px;
+}
+
+
+// Instagram feed 
+
+#instafeed {
+  position: relative;
+  flex-flow: row wrap;
+  background-color: #FFFFFF;
+  .post {
+    position: relative;
+    display: block;
+    img {
+      background-position: center;
+      background-size: cover;
+      transition: all .15s ease-in-out;
+    }
+  }
+}
+

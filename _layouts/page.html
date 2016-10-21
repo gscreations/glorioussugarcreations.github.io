@@ -1,0 +1,23 @@
+---
+layout: default
+---
+    {% include header.html %}
+
+<article class="post">
+	<section class="hero page-head overlay-fade" style="background-image: url({{ page.photo }})">
+	  <div class="hero-body has-text-centered">
+	    <div class="container">
+	      <h1 class="title text-large is-mint">
+	        {{ page.title }}
+	      </h1>
+	    </div>
+	  </div>
+	</section>
+
+
+	<section class="section">
+		<div class="container">
+			{{ content }}
+		</div>
+	</section>
+</article>

@@ -1,0 +1,19 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Glorious Sugar Creations | Custom wedding cake, cupcake and cookie shop in South Bend, Indiana
+email: gscreations12@yahoo.com
+description: > # this means to ignore newlines until "baseurl:"
+  Glorious Sugar Creations is a cake and sweets studio based in South Bend, Indiana. We specialize in making artistic wedding cakes, cupcakes and cookies for special occasions.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "glorioussugarcreations.com" # the base hostname & protocol for your site
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
+markdown: kramdown
