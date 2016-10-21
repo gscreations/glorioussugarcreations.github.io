@@ -20,31 +20,31 @@ photo: ../assets/images/cakehero.jpg
 		<form role="form" action="https://formspree.io/gscreations12@yahoo.com" id="contact-form" method="POST">
 		    <h2>Send us a message</h2>
 		    <input type="text" name="_gotcha" style="display:none" />
-		    <label class="label"></i> Name</label>
+		    <label class="label">Name</label>
 		    <p class="control">
 		      <input class="input" type="text" name="from" placeholder="Your name" required aria-required="true">
 		    </p>
-		    <label class="label"> Phone</label>
+		    <label class="label">Phone</label>
 		    <p class="control has-icon has-icon-right">
 		      <input class="input" type="email" name="phone" placeholder="555-555-5555" required aria-required="true">
 		    </p>
-		    <label class="label"> Email</label>
+		    <label class="label">Email</label>
 		    <p class="control has-icon has-icon-right">
 		      <input class="input" type="email" name="email" placeholder="you@email.com" required aria-required="true">
 		    </p>
-		    <label class="label"> Date of Event</label>
+		    <label class="label">Date of Event</label>
 		    <p class="control">
 		      <input class="input" type="date" name="date" placeholder="When is your event?">
 		    </p>
-		    <label class="label"> Servings needed</label>
+		    <label class="label">Servings needed</label>
 		    <p class="control">
-		      <input class="input" type="number" name="quantity" placeholder="When is your event?">
+		      <input class="input" type="number" name="quantity" placeholder="How many servings do you need?">
 		    </p>
-		    <label class="label"> Preferred contact method</label>
+		    <label class="label">Preferred contact method</label>
 		    <p class="control">
 		      <input class="input" type="text" name="contact" placeholder="Call, text or email?">
 		    </p>
-		    <label class="label"> Message</label>
+		    <label class="label">Message</label>
 		    <p class="control">
 		      <textarea class="textarea" type="text" name="text" placeholder="Tell us about what you need need including event details, color schemes and themes, flavors and links to relevant photos." required aria-required="true"></textarea>
 		    </p>
