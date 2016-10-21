@@ -17,9 +17,8 @@ photo: ../assets/images/cakehero.jpg
 
 <div class="columns give-me-space">
 	<div class="column is-7">
-		<form role="form" action="https://formspree.io/gscreations12@yahoo.com" id="contact-form" method="POST">
+		<form method="POST" action="http://formspree.io/gscreations12@yahoo.com" id="contact-form" role="form">
 		    <h2>Send us a message</h2>
-		    <input type="text" name="_gotcha" style="display:none" />
 		    <label class="label">Name</label>
 		    <p class="control">
 		      <input class="input" type="text" name="from" placeholder="Your name" required aria-required="true">
@@ -30,7 +29,7 @@ photo: ../assets/images/cakehero.jpg
 		    </p>
 		    <label class="label">Email</label>
 		    <p class="control has-icon has-icon-right">
-		      <input class="input" type="email" name="email" placeholder="you@email.com" required aria-required="true">
+		      <input class="input" type="email" name="_replyto" placeholder="you@email.com" required aria-required="true">
 		    </p>
 		    <label class="label">Date of Event</label>
 		    <p class="control">
@@ -38,7 +37,7 @@ photo: ../assets/images/cakehero.jpg
 		    </p>
 		    <label class="label">Servings needed</label>
 		    <p class="control">
-		      <input class="input" type="number" name="quantity" placeholder="How many servings do you need?">
+		      <input class="input" type="number" name="quantity" placeholder="When is your event?">
 		    </p>
 		    <label class="label">Preferred contact method</label>
 		    <p class="control">
@@ -48,9 +47,10 @@ photo: ../assets/images/cakehero.jpg
 		    <p class="control">
 		      <textarea class="textarea" type="text" name="text" placeholder="Tell us about what you need need including event details, color schemes and themes, flavors and links to relevant photos." required aria-required="true"></textarea>
 		    </p>
+		    <input type="text" name="_gotcha" style="display:none" />
 		    <input type="hidden" name="_subject" value="New message from a GSC client!" />
 		    <p class="control">
-		      <a class="button is-primary" type="submit" id="contact-submit">Submit</a>
+		      <a class="button is-primary" id="contact-submit" value="Send"><button type="submit">Submit</button></a>
 		    </p>
 		</form>
 	</div>
