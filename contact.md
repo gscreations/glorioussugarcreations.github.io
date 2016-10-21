@@ -37,7 +37,7 @@ photo: ../assets/images/cakehero.jpg
 		    </p>
 		    <label class="label">Servings needed</label>
 		    <p class="control">
-		      <input class="input" type="number" name="quantity" placeholder="When is your event?">
+		      <input class="input" type="number" name="quantity" placeholder="How many servings do you need?">
 		    </p>
 		    <label class="label">Preferred contact method</label>
 		    <p class="control">
