@@ -21,27 +21,27 @@ photo: ../assets/images/cakehero.jpg
 		    <h2>Send us a message</h2>
 		    <label class="label">Name</label>
 		    <p class="control">
-		      <input class="input" type="text" name="from" placeholder="Your name" required aria-required="true">
+		      <input class="input" type="text" name="from" placeholder="Your name" required aria-required="true" />
 		    </p>
 		    <label class="label">Phone</label>
 		    <p class="control has-icon has-icon-right">
-		      <input class="input" type="email" name="phone" placeholder="555-555-5555" required aria-required="true">
+		      <input class="input" type="email" name="phone" placeholder="555-555-5555" required aria-required="true" />
 		    </p>
 		    <label class="label">Email</label>
 		    <p class="control has-icon has-icon-right">
-		      <input class="input" type="email" name="_replyto" placeholder="you@email.com" required aria-required="true">
+		      <input class="input" type="email" name="_replyto" placeholder="you@email.com" required aria-required="true" />
 		    </p>
 		    <label class="label">Date of Event</label>
 		    <p class="control">
-		      <input class="input" type="date" name="date" placeholder="When is your event?">
+		      <input class="input" type="date" name="Date" />
 		    </p>
 		    <label class="label">Servings needed</label>
 		    <p class="control">
-		      <input class="input" type="number" name="quantity" placeholder="How many servings do you need?">
+		      <input class="input" type="number" name="Servings" placeholder="How many servings?" />
 		    </p>
 		    <label class="label">Preferred contact method</label>
 		    <p class="control">
-		      <input class="input" type="text" name="contact" placeholder="Call, text or email?">
+		      <input class="input" type="text" name="Contact" placeholder="Call, text or email?">
 		    </p>
 		    <label class="label">Message</label>
 		    <p class="control">
