@@ -11,7 +11,7 @@ email: gscreations12@yahoo.com
 description: > # this means to ignore newlines until "baseurl:"
   Glorious Sugar Creations is a cake and sweets studio based in South Bend, Indiana. We specialize in making artistic wedding cakes, cupcakes and cookies for special occasions.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "glorioussugarcreations.com" # the base hostname & protocol for your site
+url: "http://glorioussugarcreations.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 
