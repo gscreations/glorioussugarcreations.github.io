@@ -25,7 +25,7 @@ photo: ../assets/images/cakehero.jpg
 		    </p>
 		    <label class="label">Phone</label>
 		    <p class="control has-icon has-icon-right">
-		      <input class="input" type="number" name="phone" placeholder="555-555-5555" required aria-required="true" />
+		      <input class="input" type="text" name="phone" placeholder="555-555-5555" required aria-required="true" />
 		    </p>
 		    <label class="label">Email</label>
 		    <p class="control has-icon has-icon-right">
